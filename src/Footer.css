@@ -1,0 +1,10 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer_data {
+  text-align: center;
+  font: 1em sans-serif;
+}
