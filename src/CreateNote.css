@@ -1,19 +1,41 @@
 .createNote {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
-  border-radius: 5px;
-  background-color: white;
-  min-width: 200px;
-  min-height: 200px;
-  border: outset;
+    border-radius: 5px;
+    background-color: white;
+    min-width: 200px;
+    min-height: 150px;
+    border-style: inset;
+    box-shadow: 5px 5px 15px -5px rgba(245, 215, 48, 0.3);
 }
 
 .textarea {
-  margin-top: 5px;
-  width: auto;
-  border: none;
+    margin-top: 2px;
+    width: auto;
+    outline: none;
+    margin-left: 10px;
+    resize: both;
+}
+
+.notesInp {
+    margin: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.addButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #a97be2;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
